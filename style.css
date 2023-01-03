@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&family=Nunito+Sans:ital,wght@0,200;0,400;0,700;1,400&family=Poiret+One&display=swap');
+:root{
+  --prime-font: 'Nunito Sans', sans-serif;
+  --style-font: 'Poiret One', cursive;
+  --accent-color:#80d5ff;
+  --bg-color:#282c34;
+  --l-shadow: 2px 2px #80d5ff;
+  --xl-shadow: 5px 5px 0 #80d5ff;
+  --xxl-shadow: -40px -40px 30px 20px #80d5ff;
+}
+*{
+  margin:0;padding:0;
+  color:var(--accent-color);
+  transition: all 0.2s linear;
+}
+body{
+  font-family:var(--prime-font);
+  background-color: var(--bg-color);  
+  box-sizing: border-box;
+}
+nav{
+  width:100%;
+  height:60px;
+  box-shadow: var(--xxl-shadow);
+  border-radius:0 0 5px 5px;
+  padding:1rem;
+  padding-bottom:0;
+  display:flex;
+  justify-content: space-between;
+}
+a{
+  text-decoration:none;
+}
+.home{
+  font-family:var(--style-font);
+  font-weight: bold;
+  font-size:1.7rem;
+  margin-left:2rem;
+}
+/* nav::after{
+  content:' ';
+  position:absolute;
+  top:2.8rem;
+  width:100%;
+  height:1px;
+  background-color:var(--accent-color);
+} */
+.blogs{
+  margin-left:1rem;
+  margin-right:3rem;
+}
+.links{
+  position:relative;
+  top:0.5rem;
+}
+.links a{
+  font-size:1.1rem;
+  padding: 0 5px;
+}
+.links a:hover{
+  box-shadow: var(--l-shadow);
+}
+/* Name-itro */
+.intro{
+  z-index: 11;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.name{
+  font-family:var(--style-font);
+  font-weight:200;
+  font-size:5rem;
+  font-style: normal;
+  margin-left:1rem;
+}
+/* Teck Stack */
+header{
+  width:100vw; 
+  padding-top:10rem;
+  padding-left:5rem;
+}
+.tech-stack{
+  margin-top:4rem;
+  display:flex;
+  align-items: center;
+  color: #e4bb68;
+  font-family: 'JetBrains Mono', monospace;
+}
+.line{
+  font-style:normal;
+}
+.string {
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  animation: move 4s infinite;
+  transform:translate(0,-1.5rem);
+}
+
+.greeting {
+  position: relative;
+  top: 8.6vmin;
+  animation: white-out 5s infinite;
+}
+
+.closure::after {
+  content: '';
+  position: absolute;
+  height: 25vmin;
+  width: 40vmin;
+  background: var(--bg-color);
+  transform: translate(-40vmin, -24.5vmin);
+  z-index: -1;
+}
+
+.closure::before {
+  content: '';
+  position: absolute;
+  height: 25vmin;
+  width: 40vmin;
+  background: #282c34;
+  transform: translate(-35vmin, 3.3vmin);
+  z-index: -1;
+}
+
+.en {
+  color: #fa8231;
+}
+
+.es {
+  color: white;
+}
+
+.de {
+  color: #c678dd;
+}
+
+.it {
+  color: #a9b0bd;
+}
+
+@keyframes move {
+  25% {
+    transform: translatey(-6.5vmin);
+    opacity: 1;
+  }
+  50% {
+    transform: translatey(-10vmin);
+  }
+  75% {
+    transform: translatey(-13.5vmin);
+  }
+}
+/* my image */
+
+.pic{
+  position:absolute;
+  top:5rem;
+  right:-10rem;
+  height:90vh;
+}
