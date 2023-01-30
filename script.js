@@ -13,7 +13,9 @@ function addHtml(json){
     header.innerHTML += `
     <div class="all-contain">
         <div class="container">
-          <img src="${value.imgLink}" alt="project image" />
+          <a class="img-link" href="${value.liveDemo}">
+            <img src="${value.imgLink}" alt="project image" />
+          </a>
           <div class="small-contain">
             <h2 class="title">${value.title}</h2>
             <p class="description">
@@ -29,5 +31,3 @@ function addHtml(json){
       </div>`
   }
 }
-
-{/*  */}

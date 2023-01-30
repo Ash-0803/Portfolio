@@ -19,7 +19,7 @@
     "description": "Emoji Finder is a simple react app that is used to find what the name of the entered emoji is. It simply inputs an emoji from the user and then finds what the name of the given emoji is. This application is using an API to do so. The API is returning a json object containing name and other characteristics of the emoji. Grabbing the data from the API, I used the api to grab the name and character of the emoji. And then used React useState to update the name of the emoji in the result.",
     "imgLink":"./img/Emoji.jpg",
     "srcCode":"https://github.com/Ash-0803/mark-8",
-    "liveDemo":"#"
+    "liveDemo":"https://name-my-emoji.netlify.app/"
   },
   {
     "title": "Cash Register",

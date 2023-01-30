@@ -91,14 +91,6 @@ header{
 .bottom-right{
   display:block;  
 }
-.string {
-  z-index: -1;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  animation: move 4s infinite;
-  transform:translate(0,-1.3rem);
-}
 
 .greeting {
   position: relative;
@@ -126,6 +118,14 @@ header{
   z-index: -1;
 }
 
+.string {
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  animation: move 4s infinite;
+  transform:translate(0,-3vmin);
+}
 .en {
   color: #fa8231;
 }
@@ -151,7 +151,7 @@ header{
     transform: translatey(-10vmin);
   }
   75% {
-    transform: translatey(-14vmin);
+    transform: translatey(-13.5vmin);
   }
 }
 /* my image */
@@ -159,7 +159,7 @@ header{
 .pic{
   position:absolute;
   top:4rem;
-  width:94vw;
+  width:100%;
 }
 @media(max-width:950px){
   .pic{
@@ -348,7 +348,7 @@ hr{
   .container{
     flex-direction:column;
   }
-  .container img{
+  .container .img-link{
     visibility:hidden;
   }
   .main-head{
