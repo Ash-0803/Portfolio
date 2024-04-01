@@ -4,9 +4,7 @@ fetch('./projectsData.json')
 .then((response)=>response.json())
 .then((json)=> addHtml(json));
 
-function addMedium(json){
-  console.log(json);
-}
+
 // addHtml(); 
 function addHtml(json){
   const array = json.array; 
