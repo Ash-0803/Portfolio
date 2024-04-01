@@ -1,6 +1,20 @@
 {
   "array":[
   {
+    "title": "The Haven Store",
+    "description": "TheHavenStore is an eCommerce platform which is deployed live with payment gateway integrated. You can easily access all the products available on the store. With features like, pagination and search bar, you can easily find the product you are looking for. The store is made using React and Redux for state management. The backend is made using Node.js and Express.js. The database used is MongoDB. The payment gateway is integrated using Razorpay.",
+    "imgLink":"./img/Login.gif",
+    "srcCode":"https://github.com/Ash-0803/thehavenstore",
+    "liveDemo":null
+  },
+  {
+    "title": "Studybug",
+    "description": "StudyBug is a chat room  application that is made using Django. It is a simple chat room which uses all the CRUD operations. The chat room is made using Django and the frontend is made using HTML, CSS and JavaScript. Users can Edit their profiles, Delete their messages in the room, Admin of the room, can add and remove participants from the room.",
+    "imgLink":"./img/Login.gif",
+    "srcCode":"https://github.com/Ash-0803/DJANGO",
+    "liveDemo":null
+  },
+  {
     "title": "CLI Quiz App",
     "description": "CLI Quiz App is a user friendly app that uses readlineSync function of Node.Js to input the answer from the user. I made it on the replit, it can be previewed live on replit itself. And other than the quiz and calculating scores, it has one more functionality that increase your level up when your score reaches certain points that are accessed through an array.",
     "imgLink":"./img/cli.jpg",
