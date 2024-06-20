@@ -18,14 +18,23 @@ function addMedium(json) {
 function addHtml(array = blogs, image) {
   for (var i = 0; i < array.length; i++) {
     let value = array[i];
-    const description = value.description.slice(0, 300);
+    $regexp = '%<img[^>]*src="([^"]+)"[^>]*>%';
+
+    // code below gets the first image from the description
+    const regexp = /<img[^>]*src="([^"]+)"[^>]*>/;
+    const matches = value.description.match(regexp);
+    const image = matches[1];
+    // this replaces the img tag with an empty string
+    let content = value.description.replace(/<img[^>]*>/g, "");
+    // we then slice the content to 700 characters
+    const description = content.slice(0, 700);
     console.log(description);
-    if (value.title != null) {
-      header.innerHTML += `
+    // if (value.title != null) {
+    header.innerHTML += `
       <div class="all-contain">
           <div class="container">
             <a class="img-link" href="${value.link}">
-              <img src="${value.thumbnail}" alt="project image" />
+              <img src="${image}" alt="article's thumbnail" />
             </a>
             <div class="small-contain">
               <h2 class="title">${value.title}</h2>
@@ -39,25 +48,25 @@ function addHtml(array = blogs, image) {
           </div>
           <hr class="line" />
         </div>`;
-    } else {
-      header.innerHTML += `
-      <div class="all-contain">
-          <div class="container">
-            <a class="img-link" href="${value.link}">
-              <img src="${value.thumbnail}" alt="project image" />
-            </a>
-            <div class="small-contain">
-              <h2 class="title">${value.title}</h2>
-              <p class="description">
-                ${value.description}
-              </p>
-              <div class="buttons">
-                <a href="${value.link}"><button class="source">Link to Article</button></a>
-              </div>
-            </div>
-          </div>
-          <hr class="line" />
-        </div>`;
-    }
+    // } else {
+    //   header.innerHTML += `
+    //   <div class="all-contain">
+    //       <div class="container">
+    //         <a class="img-link" href="${value.link}">
+    //           <img src="${value.thumbnail}" alt="project image" />
+    //         </a>
+    //         <div class="small-contain">
+    //           <h2 class="title">${value.title}</h2>
+    //           <p class="description">
+    //             ${value.description}
+    //           </p>
+    //           <div class="buttons">
+    //             <a href="${value.link}"><button class="source">Link to Article</button></a>
+    //           </div>
+    //         </div>
+    //       </div>
+    //       <hr class="line" />
+    //     </div>`;
+    // }
   }
 }
