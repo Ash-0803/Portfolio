@@ -1,74 +1,81 @@
 {
-  "array":[
-  {
-    "title": "The Haven Store",
-    "description": "TheHavenStore is an eCommerce platform which is deployed live with payment gateway integrated. You can easily access all the products available on the store. With features like, pagination and search bar, you can easily find the product you are looking for. The store is made using React and Redux for state management. The backend is made using Node.js and Express.js. The database used is MongoDB. The payment gateway is integrated using Razorpay.",
-    "imgLink":"./img/Login.gif",
-    "srcCode":"https://github.com/Ash-0803/thehavenstore",
-    "liveDemo":null
-  },
-  {
-    "title": "Studybug",
-    "description": "StudyBug is a chat room  application that is made using Django. It is a simple chat room which uses all the CRUD operations. The chat room is made using Django and the frontend is made using HTML, CSS and JavaScript. Users can Edit their profiles, Delete their messages in the room, Admin of the room, can add and remove participants from the room.",
-    "imgLink":"./img/Login.gif",
-    "srcCode":"https://github.com/Ash-0803/DJANGO",
-    "liveDemo":null
-  },
-  {
-    "title": "CLI Quiz App",
-    "description": "CLI Quiz App is a user friendly app that uses readlineSync function of Node.Js to input the answer from the user. I made it on the replit, it can be previewed live on replit itself. And other than the quiz and calculating scores, it has one more functionality that increase your level up when your score reaches certain points that are accessed through an array.",
-    "imgLink":"./img/cli.jpg",
-    "srcCode":"https://replit.com/@AshishChaudhar5/mark-one-mark-two-quiz-app#index.js",
-    "liveDemo":"https://replit.com/@AshishChaudhar5/mark-one-mark-two-quiz-app?v=1"
-  },
-  {
-    "title": "Minion Translation App",
-    "description": "This is a basic and fun translation app that translates what you write in the minion language. A translation api is used in this application. Along with the translation app, I have created two more appliacations: First is to check if the entered year is a leap year. Second is to check if your birtdhay is a prime number. In the prime birthday application, I have input the date as string and then sliced it, removed the '-' from the string and made a number from the date. That date is then checked for prime number.",
-    "imgLink":"./img/lingual.jpg",
-    "srcCode":"https://github.com/Ash-0803/mark-6",
-    "liveDemo":"https://lingual.netlify.app/"
-  },
-  {
-    "title": "Emoji Finder",
-    "description": "Emoji Finder is a simple react app that is used to find what the name of the entered emoji is. It simply inputs an emoji from the user and then finds what the name of the given emoji is. This application is using an API to do so. The API is returning a json object containing name and other characteristics of the emoji. Grabbing the data from the API, I used the api to grab the name and character of the emoji. And then used React useState to update the name of the emoji in the result.",
-    "imgLink":"./img/Emoji.jpg",
-    "srcCode":"https://github.com/Ash-0803/mark-8",
-    "liveDemo":"https://name-my-emoji.netlify.app/"
-  },
-  {
-    "title": "Cash Register",
-    "description": "Cash Register is an application that replicated the functionality of a cash counter in Stores. Basically, it inputs the total bill amount of the customer and the cash given by the customer to calculate the total change in cash. It outputs the total number of notes to return to the customer individually in the form of a table. ",
-    "imgLink":"./img/cashcounter.jpg",
-    "srcCode":"https://github.com/Ash-0803/mark-10",
-    "liveDemo":"https://countering-cash.netlify.app/"
-  },
-  {
-    "title": "Luck Birth",
-    "description": "Luck Birth is a simple javascript project that is just for fun. It checks if your birthday is lucky. It simply inputs the date of birth and the lucky number of the user. Then the date of the birth is divided by the lucky number. If the date of the birth is divisible, then the date is lucky. Otherwise not.",
-    "imgLink":"./img/luckbirth.jpg",
-    "srcCode":"https://github.com/Ash-0803/mark-11",
-    "liveDemo":"https://https://luckbirth.netlify.app/"
-  },
-  {
-    "title": "Fun with Triangles",
-    "description": "Fun with triangles along with isHypotenuse and quizo-Triangle are basic javascript projects that are made for practice. In the 'Fun with Triangles', the application takes three inputs of angles and checks if the entered angles forms a valid triangle. IsHypotenuse simply checks if the hypotenuse is correct. And quizo-Triangle is a simple quiz app about traiangles. It calculates the total score and outputs it using innerText property.  ",
-    "imgLink":"./img/triangles.jpg",
-    "srcCode":"https://github.com/Ash-0803/mark-12",
-    "liveDemo":"https://triangulating.netlify.app/"
-  },
-  {
-    "title": "Palindromic Birth",
-    "description": "Palindromic Birth was the most logic heavy application that I designed up until now. First it inputs the date of birth and check if it is a palindrome or not in 6 different formats. But, it doesn't just stop there. The really buggy part was to check the nearest palindrome date to the date of birth entered by the user. Once I finally debugged the functionality of finding the nearest palindrome date in the future. One more bug came my way while doing the same but in the future and comparing it to that the future date. And comparing which comes first which I am still debugging until now.",
-    "imgLink":"./img/palindromebirth.jpg",
-    "srcCode":"https://github.com/Ash-0803/mark-13",
-    "liveDemo":"https://palindromicbirth.netlify.app/"
-  },
-  {
-    "title": "Profit-Loss",
-    "description": "Profit-Loss calculator is a very simple application which inputs the price of the stocks when bough and sold, and the number of stocks bought. It then calculates the profit or less made in the transaction. It outputs the total profit or loss accordingly and also outputs the total percentage of the transaction.",
-    "imgLink":"./img/Stonking.jpg",
-    "srcCode":"https://github.com/Ash-0803/mark-14",
-    "liveDemo":"https://stockering.netlify.app/"
-  }
-]
+  "array": [
+    {
+      "title": "The Haven Store",
+      "description": "TheHavenStore is an eCommerce platform which is deployed live with payment gateway integrated. You can easily access all the products available on the store. With features like, pagination and search bar, you can easily find the product you are looking for. The store is made using React and Redux for state management. The backend is made using Node.js and Express.js. The database used is MongoDB. The payment gateway is integrated using Razorpay.",
+      "imgLink": "./Assets/Login.gif",
+      "srcCode": "https://github.com/Ash-0803/thehavenstore",
+      "liveDemo": null
+    },
+    {
+      "title": "Studybug",
+      "description": "StudyBug is a chat room  application that is made using Django. It is a simple chat room which uses all the CRUD operations. The chat room is made using Django and the frontend is made using HTML, CSS and JavaScript. Users can Edit their profiles, Delete their messages in the room, Admin of the room, can add and remove participants from the room.",
+      "imgLink": "./Assets/studybug.gif",
+      "srcCode": "https://github.com/Ash-0803/DJANGO",
+      "liveDemo": null
+    },
+    {
+      "title": "p2pSolar",
+      "description": "This project is a pioneering decentralized platform for the buying and selling of solar energy. Despite the ongoing integration of blockchain, the platform excels in its visually stunning and intuitive frontend design. The robust backend, as exemplified by the 'users.ts' file handling POST and GET requests, ensures a seamless user experience. This project embodies the fusion of renewable energy and technology, paving the way for a future where solar energy transactions are as simple as a click.",
+      "imgLink": "./Assets/preview.jpg",
+      "srcCode": "https://github.com/trijagati/p2psolar",
+      "liveDemo": null
+    },
+    {
+      "title": "CLI Quiz App",
+      "description": "CLI Quiz App is a user friendly app that uses readlineSync function of Node.Js to input the answer from the user. I made it on the replit, it can be previewed live on replit itself. And other than the quiz and calculating scores, it has one more functionality that increase your level up when your score reaches certain points that are accessed through an array.",
+      "imgLink": "./Assets/cli.jpg",
+      "srcCode": "https://replit.com/@AshishChaudhar5/mark-one-mark-two-quiz-app#index.js",
+      "liveDemo": "https://replit.com/@AshishChaudhar5/mark-one-mark-two-quiz-app?v=1"
+    },
+    {
+      "title": "Minion Translation App",
+      "description": "This is a basic and fun translation app that translates what you write in the minion language. A translation api is used in this application. Along with the translation app, I have created two more appliacations: First is to check if the entered year is a leap year. Second is to check if your birtdhay is a prime number. In the prime birthday application, I have input the date as string and then sliced it, removed the '-' from the string and made a number from the date. That date is then checked for prime number.",
+      "imgLink": "./Assets/lingual.jpg",
+      "srcCode": "https://github.com/Ash-0803/mark-6",
+      "liveDemo": "https://lingual.netlify.app/"
+    },
+    {
+      "title": "Emoji Finder",
+      "description": "Emoji Finder is a simple react app that is used to find what the name of the entered emoji is. It simply inputs an emoji from the user and then finds what the name of the given emoji is. This application is using an API to do so. The API is returning a json object containing name and other characteristics of the emoji. Grabbing the data from the API, I used the api to grab the name and character of the emoji. And then used React useState to update the name of the emoji in the result.",
+      "imgLink": "./Assets/Emoji.jpg",
+      "srcCode": "https://github.com/Ash-0803/mark-8",
+      "liveDemo": "https://name-my-emoji.netlify.app/"
+    },
+    {
+      "title": "Cash Register",
+      "description": "Cash Register is an application that replicated the functionality of a cash counter in Stores. Basically, it inputs the total bill amount of the customer and the cash given by the customer to calculate the total change in cash. It outputs the total number of notes to return to the customer individually in the form of a table. ",
+      "imgLink": "./Assets/cashcounter.jpg",
+      "srcCode": "https://github.com/Ash-0803/mark-10",
+      "liveDemo": "https://countering-cash.netlify.app/"
+    },
+    {
+      "title": "Luck Birth",
+      "description": "Luck Birth is a simple javascript project that is just for fun. It checks if your birthday is lucky. It simply inputs the date of birth and the lucky number of the user. Then the date of the birth is divided by the lucky number. If the date of the birth is divisible, then the date is lucky. Otherwise not.",
+      "imgLink": "./Assets/luckbirth.jpg",
+      "srcCode": "https://github.com/Ash-0803/mark-11",
+      "liveDemo": "https://https://luckbirth.netlify.app/"
+    },
+    {
+      "title": "Fun with Triangles",
+      "description": "Fun with triangles along with isHypotenuse and quizo-Triangle are basic javascript projects that are made for practice. In the 'Fun with Triangles', the application takes three inputs of angles and checks if the entered angles forms a valid triangle. IsHypotenuse simply checks if the hypotenuse is correct. And quizo-Triangle is a simple quiz app about traiangles. It calculates the total score and outputs it using innerText property.  ",
+      "imgLink": "./Assets/triangles.jpg",
+      "srcCode": "https://github.com/Ash-0803/mark-12",
+      "liveDemo": "https://triangulating.netlify.app/"
+    },
+    {
+      "title": "Palindromic Birth",
+      "description": "Palindromic Birth was the most logic heavy application that I designed up until now. First it inputs the date of birth and check if it is a palindrome or not in 6 different formats. But, it doesn't just stop there. The really buggy part was to check the nearest palindrome date to the date of birth entered by the user. Once I finally debugged the functionality of finding the nearest palindrome date in the future. One more bug came my way while doing the same but in the future and comparing it to that the future date. And comparing which comes first which I am still debugging until now.",
+      "imgLink": "./Assets/palindromebirth.jpg",
+      "srcCode": "https://github.com/Ash-0803/mark-13",
+      "liveDemo": "https://palindromicbirth.netlify.app/"
+    },
+    {
+      "title": "Profit-Loss",
+      "description": "Profit-Loss calculator is a very simple application which inputs the price of the stocks when bough and sold, and the number of stocks bought. It then calculates the profit or less made in the transaction. It outputs the total profit or loss accordingly and also outputs the total percentage of the transaction.",
+      "imgLink": "./Assets/Stonking.jpg",
+      "srcCode": "https://github.com/Ash-0803/mark-14",
+      "liveDemo": "https://stockering.netlify.app/"
+    }
+  ]
 }
