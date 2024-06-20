@@ -16,7 +16,7 @@
     },
     {
       "title": "p2pSolar",
-      "description": "This project is a pioneering decentralized platform for the buying and selling of solar energy. Despite the ongoing integration of blockchain, the platform excels in its visually stunning and intuitive frontend design. The robust backend, as exemplified by the 'users.ts' file handling POST and GET requests, ensures a seamless user experience. This project embodies the fusion of renewable energy and technology, paving the way for a future where solar energy transactions are as simple as a click.",
+      "description": "This project is a pioneering decentralized platform for the buying and selling of solar energy. Despite the ongoing integration of blockchain, the platform excels in its visually stunning and intuitive frontend design. The robust backend, handling POST and GET requests, ensures a seamless user experience. This project paves the way for a future where solar energy transactions are as simple as a click.",
       "imgLink": "./Assets/preview.jpg",
       "srcCode": "https://github.com/trijagati/p2psolar",
       "liveDemo": null
