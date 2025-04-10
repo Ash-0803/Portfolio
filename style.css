@@ -394,3 +394,64 @@ hr {
     font-size: 0.9rem;
   }
 }
+
+/* Pricing page CSS */
+.pricing-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border: 2px solid var(--accent-color);
+  border-radius: 8px;
+  width: 100%;
+  max-width: 600px;
+  transition: transform 0.3s ease;
+}
+
+.pricing-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--xl-shadow);
+}
+
+.price {
+  font-family: var(--style-font);
+  font-size: 3rem;
+  margin: 1rem 0;
+  color: white;
+}
+
+.features {
+  list-style-position: inside;
+  margin: 1.5rem 0;
+  width: 100%;
+  text-align: center;
+}
+
+.features li {
+  margin: 0.6rem 0;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .pricing-card {
+    padding: 1.5rem;
+  }
+
+  .price {
+    font-size: 2.5rem;
+  }
+
+  .features li {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .pricing-card {
+    padding: 1rem;
+  }
+
+  .price {
+    font-size: 2rem;
+  }
+}
