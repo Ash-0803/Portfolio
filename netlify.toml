@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/*"
+  to = "https://ash-folio.vercel.app/"
+  status = 301
+  force = true
